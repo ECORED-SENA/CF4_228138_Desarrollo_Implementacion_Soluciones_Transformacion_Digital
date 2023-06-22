@@ -9,7 +9,7 @@
     p(data-aos="fade-down").mb-5 Los requerimientos deben ser identificados, descritos y documentados de forma estructurada y normalizada, por esto, es importante diferenciar los requisitos de otros elementos, por ejemplo, declaraciones como “el programa debe escribirse en Python” no son un requerimiento, pues es una decisión de implementación. Pero algo como “un usuario puede retirar de la biblioteca hasta 10 libros diferentes al tiempo” sí es un requerimiento porque define algo que el usuario puede hacer y el sistema debe dejarlo cumpliendo restricciones y reglas de negocio.
 
     .row.align-items-center.justify-content-center
-      .col-lg-10 
+      .col-lg-10
         .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/80.png')})`}"
@@ -19,29 +19,29 @@
 
         p(data-aos="fade-down").mb-5 Antes de asumir el tema específico para la documentación de requisitos se estudiarán algunos estándares que deben aplicarse a cualquier documento e informe como los elementos generales de un documento y algunos marcos referenciales orientados a la recolección de requisitos tales como IREB, IEEE y metodologías ágiles.
 
-    Separador 
+    Separador
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 6.1 Elementos del documento 
+      h2 6.1 Elementos del documento
 
     .cajon-b.color-acento-contenido.mb-4.py-2
       .row.align-items-center.justify-content-center
         .col-auto.my-3
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/81.png', alt='')  
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/81.png', alt='')
         .col-10.my-3
           p(data-aos="fade-down") El propósito de la documentación de requisitos es comunicar y reflejar la información obtenida por el analista de requisitos, por lo cual se documenta lo investigado, estudiado y analizado. La redacción debe ser clara y completa, con un lenguaje que no dé lugar a interpretaciones erróneas, pues está dirigido a personas que incluso no tienen que ver con la organización, si bien contienen elementos técnicos, debe ser entendible para todos y para cualquier profesional del área técnica que se menciona. Debe incluir los métodos y proponer las soluciones.
 
-          p(data-aos="fade-down") Independiente de la metodología seleccionada todos los documentos e informes deben contener como mínimo los siguientes elementos: 
-               
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12.d-none.d-lg-block 
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/82.svg', alt='')  
-      .col-lg-12.d-block.d-lg-none
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/83.svg', alt='')   
+          p(data-aos="fade-down") Independiente de la metodología seleccionada todos los documentos e informes deben contener como mínimo los siguientes elementos:
 
-    Separador 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12.d-none.d-lg-block
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/82.svg', alt='')
+      .col-lg-12.d-block.d-lg-none
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/83.svg', alt='')
+
+    Separador
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 6.2  IREB (International Requirements Engineering Board)
-    p(data-aos="fade-down") Es una organización sin ánimo de lucro que provee el esquema de certificación profesional en ingeniería de requisitos (CPRE), el consejo está compuesto por representantes y líderes en IR (Requisitos Internacionales), que provienen de la academia, la investigación, la empresa y la consultoría. La página web oficial es 
+    p(data-aos="fade-down") Es una organización sin ánimo de lucro que provee el esquema de certificación profesional en ingeniería de requisitos (CPRE), el consejo está compuesto por representantes y líderes en IR (Requisitos Internacionales), que provienen de la academia, la investigación, la empresa y la consultoría. La página web oficial es
       a.en(href="https://www.ireb.org/en" target="_blank") #[.or www.ireb.org]
 
     p(data-aos="fade-down").mb-5 Esta surgió en Alemania en el año 2006; sin embargo, es un comité con alcance internacional, su objetivo es destacar la importancia de los requerimientos como una disciplina completa y mostrar su valor agregado a la industria del <i>software</i>.
@@ -52,33 +52,33 @@
           .col-lg-7.my-3
             p(data-aos="fade-down").mb-0 Podría denominarse que la IREB es un movimiento que procura valorizar la importancia de los requerimientos, y que los sectores económicos y la industria dispongan de este componente, de la categoría y de la valoración que merece.
           .col-lg-5.my-3
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/84.png', alt='') 
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/84.png', alt='')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         p(data-aos="fade-down") La asociación estimula la estandarización y el uso de metodologías de la ingeniería de requerimientos que está enmarcado en la ingeniería del <i>software</i>.
 
-        p(data-aos="fade-down") En el medio actual, profesionales certificados en IREB no son comunes, por lo que podría ser una opción y una oportunidad para la certificación, a continuación se listan los aspectos que soportan la importancia de emplear técnicas en la fase de análisis y en la descripción de requerimientos:  
+        p(data-aos="fade-down") En el medio actual, profesionales certificados en IREB no son comunes, por lo que podría ser una opción y una oportunidad para la certificación, a continuación se listan los aspectos que soportan la importancia de emplear técnicas en la fase de análisis y en la descripción de requerimientos:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.bg11.p-4
         .row.justify-content-center.align-items-center
           .col-lg-4.my-3
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/85.png', alt='')          
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/85.png', alt='')
           .col-lg-8.my-3
             ul.lista-ul
-              li 
+              li
                 i.lista-ul__vineta.ulcolor
-                p.mb-0 Se estima que el 47 % de los fracasos en los proyectos se debe a la gestión deficiente de los requerimientos.
-              li 
+                span Se estima que el 47 % de los fracasos en los proyectos se debe a la gestión deficiente de los requerimientos.
+              li
                 i.lista-ul__vineta.ulcolor
-                p.mb-0 Se considera que al menos el 20 % de los defectos en desarrollo de <i>software</i> tienen sus orígenes en los requerimientos o descripciones erróneas en los requerimientos; muchas veces las fallas no son un asunto de programación o de otra naturaleza, sino deficiencias en las fases iniciales.
-              li 
+                span Se considera que al menos el 20 % de los defectos en desarrollo de <i>software</i> tienen sus orígenes en los requerimientos o descripciones erróneas en los requerimientos; muchas veces las fallas no son un asunto de programación o de otra naturaleza, sino deficiencias en las fases iniciales.
+              li
                 i.lista-ul__vineta.ulcolor
-                p.mb-0 Encontrar y corregir los defectos en el <i>software</i> después de entregado el proyecto es mucho más costoso que hacerlo en la fase de requerimientos. 
+                span Encontrar y corregir los defectos en el <i>software</i> después de entregado el proyecto es mucho más costoso que hacerlo en la fase de requerimientos.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        p(data-aos="fade-down") La <b>Certificación CPRE (Certified Professional on Requirements Engineering)</b> es una certificación gestionada y entregada por IREB dirigida a los profesionales en:  
+        p(data-aos="fade-down") La <b>Certificación CPRE (Certified Professional on Requirements Engineering)</b> es una certificación gestionada y entregada por IREB dirigida a los profesionales en:
 
     .row.justify-content-center
       .col-xl-4.col-md-6.col-8.mb-xl-0.mb-4(data-aos="fade-right")
@@ -107,24 +107,24 @@
                 h4.text-center.mb-0 Pruebas
               p.mb-0 Expertos en testeos de aplicaciones y soluciones tecnológicas, evalúan si el proyecto sí cumple con lo pactado o prometido, emplean técnicas y métodos establecidos según el tipo de prueba que desean ejecutar.
 
-    Separador 
+    Separador
     #t_6_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 6.3 Estándar IEEE 
+      h2 6.3 Estándar IEEE
 
     .cajon-b.color-acento-contenido.mb-4.py-2
       .row.align-items-center.justify-content-center
         .col-auto.my-3
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/89.png', alt='')  
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/89.png', alt='')
         .col-10.my-3
           p(data-aos="fade-down") El Instituto de Ingenieros Eléctricos y Electrónicos es la organización internacional más grande que se encarga de promover avances científicos en las áreas electrónica, eléctrica, informática, energética y demás áreas relacionadas, además es la sociedad que regula y estandariza las normas internaciones de estas disciplinas, este surgió en los Estados Unidos desde la década de los 60, lo que ha permitido que la estandarización de los requisitos de <i>software</i> estén basados en las Normas IEEE.
 
     p(data-aos="fade-down") La especificación de requisitos de <i>software</i> (ERS) hace referencia a una descripción que debe indicar algo y esta especificación debe ser entendida por el cliente, no puede llevar elementos de implementación o de desarrollo de soluciones técnicas, y a partir de una especificación surgen otras especificaciones más detalladas de producto en  la descripción documentada.
 
-    p(data-aos="fade-down").mb-5 La metodología IEEE 830 presenta la siguiente estructura:   
+    p(data-aos="fade-down").mb-5 La metodología IEEE 830 presenta la siguiente estructura:
 
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-4.bg12.p-4
-        img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/90.png', alt='')  
+        img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/90.png', alt='')
         .row.justify-content-center.align-items-center.mb-4
           .col-auto
             .bgw.p-3.px-5
@@ -141,7 +141,7 @@
         h5(data-aos="fade-down") Resumen
 
       .col-lg-4.bg13.p-4
-        img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/91.png', alt='')  
+        img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/91.png', alt='')
         .row.justify-content-center.align-items-center.mb-4
           .col-auto
             .bgw.p-3.px-5
@@ -158,7 +158,7 @@
         p(data-aos="fade-down") Se describen los factores que sí cambian y afectan directamente los requisitos.
 
       .col-lg-4.bg14.p-4
-        img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/92.png', alt='')  
+        img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/92.png', alt='')
         .row.justify-content-center.align-items-center.mb-4
           .col-auto
             .bgw.p-3.px-5
@@ -168,7 +168,7 @@
         h5(data-aos="fade-down") Requerimientos no funcionales (RNF)
         p(data-aos="fade-down") Describen las características generales y las restricciones al sistema (como entornos gráficos, velocidad de procesamiento), estos también deben listarse e identificarse. Por lo general los RF están asociados a uno o varios RNF.
 
-    Separador 
+    Separador
     #t_6_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 6.4 SCRUM (historias de usuario)
 
@@ -188,27 +188,28 @@
           p(data-aos="fade-down").mb-0 La metodología ágil como SCRUM propone un cambio de paradigma, que puede identificar a continuación:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12.d-none.d-lg-block 
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/94.svg', alt='')  
+      .col-lg-12.d-none.d-lg-block
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/94.svg', alt='')
       .col-lg-12.d-block.d-lg-none
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/95.svg', alt='') 
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/95.svg', alt='')
 
     .cajon-b.color-acento-contenido.mb-4.py-2
       .row.align-items-center.justify-content-center
         .col-auto.my-3
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/96.png', alt='')  
+          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/96.png', alt='')
         .col-10.my-3
-          p(data-aos="fade-down") Las metodologías ágiles como SCRUM y otras proponen partir de un presupuesto y de unas fechas de entrega,   a partir de ahí se trabaja para implementar la funcionalidad más valiosa para el cliente en cada momento, trabajando de esta manera el alcance será flexible. 
+          p(data-aos="fade-down") Las metodologías ágiles como SCRUM y otras proponen partir de un presupuesto y de unas fechas de entrega,   a partir de ahí se trabaja para implementar la funcionalidad más valiosa para el cliente en cada momento, trabajando de esta manera el alcance será flexible.
 
           p(data-aos="fade-down") En el siguiente video se presenta cómo el marco de trabajo SCRUM aporta en el proceso de especificación de requisitos:
 
-    .row.justify-content-center.align-items-center.mb-5           
-      .col-lg-12(data-aos="fade-left")     
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12(data-aos="fade-left")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/yGtQE5dNdnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)          
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/yGtQE5dNdnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. Scrum y la especificación de requisitos
 
-    Separador 
+    Separador
     #t_6_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 6.5  Criterios de aceptación
 
@@ -218,27 +219,27 @@
       .col-lg-10.bg11.p-4
         .row.justify-content-center.align-items-center
           .col-lg-4.my-3
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/97.png', alt='')          
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/97.png', alt='')
           .col-lg-8.my-3
             p(data-aos="fade-down") Características principales de los criterios de aceptación:
 
             ul.lista-ul
-              li 
+              li
                 i.lista-ul__vineta.ulcolor
-                p.mb-0 Se deben redactar con frases concretas y que concluyan las historias de los usuarios.
-              li 
+                span Se deben redactar con frases concretas y que concluyan las historias de los usuarios.
+              li
                 i.lista-ul__vineta.ulcolor
-                p.mb-0 Enriquece la historia y hace posible las pruebas.
-              li 
+                span Enriquece la historia y hace posible las pruebas.
+              li
                 i.lista-ul__vineta.ulcolor
-                p.mb-0 Los resultados de las pruebas solo deben tener dos estados: correcto o incorrecto.
-              li 
+                span Los resultados de las pruebas solo deben tener dos estados: correcto o incorrecto.
+              li
                 i.lista-ul__vineta.ulcolor
-                p.mb-0 Se debe asegurar el entendimiento por parte de todo el equipo para que exista unanimidad en la consideración si es o no aceptada y finalizada. 
+                span Se debe asegurar el entendimiento por parte de todo el equipo para que exista unanimidad en la consideración si es o no aceptada y finalizada.
 
     p(data-aos="fade-down").mb-5 Tipos de criterio de aceptación:
 
-    .row.justify-content-center.mb-5           
+    .row.justify-content-center.mb-5
       .col-lg-3.col-md-6.col-sm-8.my-3(data-aos="fade-left")
         .tarjeta-avatar
           img.img-a.img-t.img-w2(src='@/assets/curso/temas/98.svg' alt='')
@@ -268,29 +269,29 @@
           img(src='@/assets/curso/temas/102.png', alt='')
 
       .tarjeta.color-secundario.p-3(x="49%" y="9%" numero="1")
-        .h5.mb-0.text-center ID    
+        .h5.mb-0.text-center ID
 
       .tarjeta.color-secundario.p-3(x="65%" y="9%" numero="2")
-        .h5.mb-0.text-center Título   
+        .h5.mb-0.text-center Título
 
       .tarjeta.color-secundario.p-3(x="30%" y="33.5%" numero="3")
-        .h5.mb-0.text-center Descripción 
+        .h5.mb-0.text-center Descripción
 
       .tarjeta.color-secundario.p-3(x="30%" y="70%" numero="4")
-        .h5.mb-0.text-center Criterios de aceptación    
+        .h5.mb-0.text-center Criterios de aceptación
 
       .tarjeta.color-secundario.p-3(x="87.5%" y="54%" numero="5")
-        .h5.mb-0.text-center Ponderación    
+        .h5.mb-0.text-center Ponderación
 
       .tarjeta.color-secundario.p-3(x="87.5%" y="68%" numero="6")
-        .h5.mb-0.text-center Prioridad   
+        .h5.mb-0.text-center Prioridad
 
       .tarjeta.color-secundario.p-3(x="87.5%" y="81.5%" numero="7")
-        .h5.mb-0.text-center Estimación 
+        .h5.mb-0.text-center Estimación
 
     .row.align-items-center.justify-content-center
-      .col-lg-10 
-        p(data-aos="fade-down") Los criterios de aceptación se expresan a modo de validación y dan luz sobre las pruebas que se deben realizar por parte del equipo de pruebas y aprobación de dicha historia. 
+      .col-lg-10
+        p(data-aos="fade-down") Los criterios de aceptación se expresan a modo de validación y dan luz sobre las pruebas que se deben realizar por parte del equipo de pruebas y aprobación de dicha historia.
 </template>
 
 <script>

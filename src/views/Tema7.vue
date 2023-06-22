@@ -11,19 +11,19 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.bg2.p-4.brad
         .row.justify-content-center.align-items-center
-          .col-lg-8.my-3 
+          .col-lg-8.my-3
             p(data-aos="fade-down") El elemento fundamental y principal de las relaciones comerciales y laborales surge a partir de la confianza; un documento mal elaborado, con errores elementales y sin referencias podría ser un aspecto negativo para la generación de desconfianza.
 
-            p(data-aos="fade-down").mb-0 Por lo cual se deben aplicar las buenas prácticas de documentación en todo documento que se elabore, incluyendo aquellos que están en las metodologías de desarrollo, ya sea SCRUM, IEEE u otra. 
+            p(data-aos="fade-down").mb-0 Por lo cual se deben aplicar las buenas prácticas de documentación en todo documento que se elabore, incluyendo aquellos que están en las metodologías de desarrollo, ya sea SCRUM, IEEE u otra.
           .col-lg-4.my-3
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/103.png', alt='')          
-    
-    Separador 
+            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/103.png', alt='')
+
+    Separador
     #t_7_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 7.1 Normas APA
-    p(data-aos="fade-down").mb-5 Buscando una estandarización en las referencias bibliográficas, las Normas APA han sido el estándar más empleado para las citaciones de las fuentes complementarias o marcos referenciales de los documentos, APA son las iniciales de American Psychological Association (Asociación Americana de Psicología)  
-      a.en(href="https://apastyle.apa.org" target="_blank") 
-        span.or https://apastyle.apa.org 
+    p(data-aos="fade-down").mb-5 Buscando una estandarización en las referencias bibliográficas, las Normas APA han sido el estándar más empleado para las citaciones de las fuentes complementarias o marcos referenciales de los documentos, APA son las iniciales de American Psychological Association (Asociación Americana de Psicología)
+      a.en(href="https://apastyle.apa.org" target="_blank")
+        span.or https://apastyle.apa.org
         span que fue la organización que creó el estándar desde hace décadas atrás en 1929 para el campo de la Psicología, pero que actualmente muchas ramas del conocimiento lo emplean como esquema documental.
 
     .row.align-items-center.justify-content-center
@@ -48,66 +48,68 @@
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://revistascientificas.cuc.edu.co/culturaeducacionysociedad/article/view/2476" target="_blank")
                     span Descargar
-                    i.fas.fa-file-download  
+                    i.fas.fa-file-download
 
-    Separador 
+    Separador
     #t_7_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 7.2 Buenas prácticas de redacción de requisitos 
-    p(data-aos="fade-down") Se recomienda aplicar algunos puntos clave a la hora generar un buen documento enfocado a la comunicación, registro de proyectos de transformación digital y de requisitos; presentar textos a los clientes o equipos de trabajo con mal manejo de redacción y poca claridad puede tener implicaciones negativas cuando el proyecto esté en fases posteriores. 
+      h2 7.2 Buenas prácticas de redacción de requisitos
+    p(data-aos="fade-down") Se recomienda aplicar algunos puntos clave a la hora generar un buen documento enfocado a la comunicación, registro de proyectos de transformación digital y de requisitos; presentar textos a los clientes o equipos de trabajo con mal manejo de redacción y poca claridad puede tener implicaciones negativas cuando el proyecto esté en fases posteriores.
 
-    p(data-aos="fade-down").mb-5 Por esta razón, se presentan algunos consejos prácticos para la construcción de documentos bien elaborados: 
+    p(data-aos="fade-down").mb-5 Por esta razón, se presentan algunos consejos prácticos para la construcción de documentos bien elaborados:
 
-    .row.justify-content-center.align-items-center    
+    .row.justify-content-center.align-items-center
       .col-lg-12.up
         SlyderF.custom(columnas="col-lg-4 col-md-4")(data-aos="fade-left")
           .tarjeta.tarjeta--slyder.bg5.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/111.png", alt="alt").img100.m-auto
-            h4.mb-3 Defina la metodología que seguirá  
-            p.mb-0 Seleccione la línea metodológica que va a usar, ocasionalmente lo define el cliente o la empresa que dirige los proyectos, pero en caso de no hacerlo use las técnicas como la IEEE, SCRUM, entre otras.        
+            h4.mb-3 Defina la metodología que seguirá
+            p.mb-0 Seleccione la línea metodológica que va a usar, ocasionalmente lo define el cliente o la empresa que dirige los proyectos, pero en caso de no hacerlo use las técnicas como la IEEE, SCRUM, entre otras.
           .tarjeta.tarjeta--slyder.bg4.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/112.png", alt="alt").img100.m-auto
-            h4.mb-3 Tenga claridad de los insumos e instrumentos  
-            p.mb-0 Antes de la documentación debe tener instrumentos aplicados en la organización como encuestas, entrevistas, diagramas, mapas de procesos y tomas de requerimientos. Ya debe tener una idea clara de la organización y de los procesos. 
+            h4.mb-3 Tenga claridad de los insumos e instrumentos
+            p.mb-0 Antes de la documentación debe tener instrumentos aplicados en la organización como encuestas, entrevistas, diagramas, mapas de procesos y tomas de requerimientos. Ya debe tener una idea clara de la organización y de los procesos.
           .tarjeta.tarjeta--slyder.bg5.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/113.png", alt="alt").img100.m-auto
-            h4.mb-3 Empiece con los objetivos  
-            p.mb-0 Se deben definir los objetivos y las metas, estos darán claridad y orden al documento. Cuando se construyen documentos, estos deben ser claros para la correcta interpretación de cualquier lector, tanto los clientes como el equipo de trabajo.       
+            h4.mb-3 Empiece con los objetivos
+            p.mb-0 Se deben definir los objetivos y las metas, estos darán claridad y orden al documento. Cuando se construyen documentos, estos deben ser claros para la correcta interpretación de cualquier lector, tanto los clientes como el equipo de trabajo.
           .tarjeta.tarjeta--slyder.bg4.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/114.png", alt="alt").img100.m-auto
-            h4.mb-3 La forma importa  
-            p.mb-0 La ortografía y la forma de redactar son primordiales a la hora de documentar, esto da cuenta de la seriedad, la técnica y aporta  a la confianza en la gestión de los requerimientos en la organización.    
+            h4.mb-3 La forma importa
+            p.mb-0 La ortografía y la forma de redactar son primordiales a la hora de documentar, esto da cuenta de la seriedad, la técnica y aporta  a la confianza en la gestión de los requerimientos en la organización.
           .tarjeta.tarjeta--slyder.bg5.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/115.png", alt="alt").img100.m-auto
-            h4.mb-3 Cite las referencias  
-            p.mb-0 Es muy importante valorar las referencias, los marcos teóricos y técnicos con los que el proyecto se soporta. Recuerde que menos es más, evite redundar, procure escribir conciso, con pocas palabras puede dar claridad y se logrará más fácil el objetivo.       
+            h4.mb-3 Cite las referencias
+            p.mb-0 Es muy importante valorar las referencias, los marcos teóricos y técnicos con los que el proyecto se soporta. Recuerde que menos es más, evite redundar, procure escribir conciso, con pocas palabras puede dar claridad y se logrará más fácil el objetivo.
           .tarjeta.tarjeta--slyder.bg4.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/116.png", alt="alt").img100.m-auto
-            h4.mb-3 Claridad  
-            p.mb-0 Redacte para todos, no emplee términos muy técnicos o poco usuales para descrestar, apóyese en recursos gráficos para describir mejor la idea; los recursos como mapas mentales, infografías, diagramas, tablas, etc. Hacen la lectura más simple y permite un mejor entendimiento. 
+            h4.mb-3 Claridad
+            p.mb-0 Redacte para todos, no emplee términos muy técnicos o poco usuales para descrestar, apóyese en recursos gráficos para describir mejor la idea; los recursos como mapas mentales, infografías, diagramas, tablas, etc. Hacen la lectura más simple y permite un mejor entendimiento.
           .tarjeta.tarjeta--slyder.bg5.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8
                 img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/117.png", alt="alt").img100.m-auto
-            h4.mb-3 Revise varias veces al final  
-            p.mb-0 Cada vez que se relee un texto se va perfeccionando más, si tiene la oportunidad apóyese en otra persona que lea el documento para determinar la claridad de los requisitos, y que pueda brindar sugerencias.       
-                    
+            h4.mb-3 Revise varias veces al final
+            p.mb-0 Cada vez que se relee un texto se va perfeccionando más, si tiene la oportunidad apóyese en otra persona que lea el documento para determinar la claridad de los requisitos, y que pueda brindar sugerencias.
+
 </template>
 
 <script>
+import SlyderF from '../components/SlyderF.vue'
 export default {
   name: 'Tema7',
+  components: { SlyderF },
   data: () => ({
     datosLineaTiempoB: [
       {
@@ -160,4 +162,9 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.slyder-f
+  .slyder-f__main
+    .horizontal-scroll__wrapper
+      padding-top: 4rem
+</style>
