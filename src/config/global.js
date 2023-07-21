@@ -399,24 +399,24 @@ export default {
       autores: [
         {
           nombre: 'Jaime Hernán Tejada',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de la Industria, la Empresa y los Servicios  CIES - Norte de Santander',
         },
         {
           nombre: 'Giovanna Andrea Escobar Ospina',
-          cargo: 'Diseñadora instruccional',
+          cargo: 'Diseñadora Instruccional',
           centro:
             'Centro de la Industria, la Empresa y los Servicios  CIES - Norte de Santander',
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Asesora metodológica y pedagógica',
+          cargo: 'Asesora Metodológica y Pedagógica',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Julia Isabel Roberto',
-          cargo: 'Correctora de estilo',
+          cargo: 'Corrección de Estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
       ],
@@ -455,7 +455,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Camilo Bolaño',
           cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -479,7 +479,7 @@ export default {
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
