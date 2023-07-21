@@ -40,7 +40,7 @@
 
     Separador
     #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 6.2  IREB (International Requirements Engineering Board)
+      h2 6.2  IREB (#[em International Requirements Engineering Board])
     p(data-aos="fade-down") Es una organización sin ánimo de lucro que provee el esquema de certificación profesional en ingeniería de requisitos (CPRE), el consejo está compuesto por representantes y líderes en IR (Requisitos Internacionales), que provienen de la academia, la investigación, la empresa y la consultoría. La página web oficial es
       a.en(href="https://www.ireb.org/en" target="_blank") #[.or www.ireb.org]
 
@@ -78,7 +78,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        p(data-aos="fade-down") La <b>Certificación CPRE (Certified Professional on Requirements Engineering)</b> es una certificación gestionada y entregada por IREB dirigida a los profesionales en:
+        p(data-aos="fade-down") La <b>Certificación CPRE (#[em Certified Professional on Requirements Engineering])</b> es una certificación gestionada y entregada por IREB dirigida a los profesionales en:
 
     .row.justify-content-center
       .col-xl-4.col-md-6.col-8.mb-xl-0.mb-4(data-aos="fade-right")
@@ -254,7 +254,7 @@
         .tarjeta-avatar
           img.img-a.img-t.img-w2(src='@/assets/curso/temas/100.svg' alt='')
           div.bg15.p-4.pt-5.h-100
-            p.mb-0 <b>No funcional:</b> hace referencia a la accesibilidad, la seguridad, el performance, el soporte, etc.
+            p.mb-0 <b>No funcional:</b> hace referencia a la accesibilidad, la seguridad, el #[em performance], el soporte, etc.
       .col-lg-3.col-md-6.col-sm-8.my-3(data-aos="fade-right")
         .tarjeta-avatar
           img.img-a.img-t.img-w2(src='@/assets/curso/temas/101.svg' alt='')

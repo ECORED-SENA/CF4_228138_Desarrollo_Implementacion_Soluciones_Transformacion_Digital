@@ -23,12 +23,11 @@
 
       p(data-aos="fade-down") De otra parte, la inestabilidad de los requerimientos de un sistema es inevitable, pues se estima que 25% de los requerimientos iniciales de un sistema cambian antes de que el sistema comience a utilizarse. Por ello, muchas prácticas resultan efectivas para gestionar adecuadamente los requerimientos de un sistema y, en cierto modo, controlar su evolución.
 
-      p(data-aos="fade-down").mb-5 En la siguiente tabla, se describen las actividades y los artefactos que se realizan en la fase de definición de requisitos.
+      p(data-aos="fade-down").mb-4 En la siguiente tabla, se describen las actividades y los artefactos que se realizan en la fase de definición de requisitos.
 
-      h4(data-aos="fade-down").mb-5 En la siguiente tabla, se describen las actividades y los artefactos que se realizan en la fase de definición de requisitos.
       .tabla-a
         table
-          caption Tabla 1/ Actividades y artefactos de la fase de definición de requisitos
+          caption Tabla 1. Actividades y artefactos de la fase de definición de requisitos
           thead
             tr
               th Fase

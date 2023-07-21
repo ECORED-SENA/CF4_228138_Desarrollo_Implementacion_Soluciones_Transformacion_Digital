@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Documentación e informe de requisitos',
     descripcionCurso:
       'A través de este recurso educativo se exponen los conceptos para la apropiación de las fases iniciales en las soluciones de transformación digital, la documentación, la ingeniería de requisitos, los registros y los acuerdos, además se abordan los paradigmas de los modelos de ciclo de vida del <i>software</i>.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

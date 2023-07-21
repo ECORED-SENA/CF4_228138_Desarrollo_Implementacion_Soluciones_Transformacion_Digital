@@ -21,9 +21,9 @@
     Separador
     #t_7_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 7.1 Normas APA
-    p(data-aos="fade-down").mb-5 Buscando una estandarización en las referencias bibliográficas, las Normas APA han sido el estándar más empleado para las citaciones de las fuentes complementarias o marcos referenciales de los documentos, APA son las iniciales de American Psychological Association (Asociación Americana de Psicología)
-      a.en(href="https://apastyle.apa.org" target="_blank")
-        span.or https://apastyle.apa.org
+    p(data-aos="fade-down").mb-5 Buscando una estandarización en las referencias bibliográficas, las Normas APA han sido el estándar más empleado para las citaciones de las fuentes complementarias o marcos referenciales de los documentos, APA son las iniciales de American Psychological Association (Asociación Americana de Psicología)&nbsp;
+      a.en(href="https://apastyle.apa.org" target="_blank") &nbsp;
+        span.or https://apastyle.apa.org &nbsp;
         span que fue la organización que creó el estándar desde hace décadas atrás en 1929 para el campo de la Psicología, pero que actualmente muchas ramas del conocimiento lo emplean como esquema documental.
 
     .row.align-items-center.justify-content-center
@@ -46,7 +46,7 @@
                   h3.mb-1 Estilo APA
                   p.mb-0 En este documento podrá profundizar en las instrucciones del uso de estilo APA, citas bibliográficas, referencias bibliográficas; cómo aprovechar Microsoft Word para el uso de citas y referencias, y algunos sitios web recomendados.
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://revistascientificas.cuc.edu.co/culturaeducacionysociedad/article/view/2476" target="_blank")
+                  a.boton.color-acento-botones(href="https://biblioteca.sena.edu.co/images/PDF/InstructivoAPA.pdf" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
@@ -146,7 +146,7 @@ export default {
         titulo:
           'Referencia de artículos y revistas digitales con DOI (Digital Object Identifier)',
         texto:
-          'Debe tener el apellido, inicial del autor, año de publicación, título del artículo con volumen, en cursiva, páginas y dirección DOI, por ejemplo, Ortega, Y., Hernández, M. (2019). Concepción dinámica familiar: Análisis desde la percepción de un grupo de niños de cuatro años. Cultura, Educación y Sociedad, 10, 63-72. http://dx.doi.org/10.1798/cultedusoc.10.2.2019.05',
+          'Debe tener el apellido, inicial del autor, año de publicación, título del artículo con volumen, en cursiva, páginas y dirección DOI, por ejemplo, Ortega, Y., Hernández, M. (2019). Concepción dinámica familiar: Análisis desde la percepción de un grupo de niños de cuatro años. Cultura, Educación y Sociedad, 10, 63-72.',
         icono: require('@/assets/curso/temas/109.svg'),
       },
     ],

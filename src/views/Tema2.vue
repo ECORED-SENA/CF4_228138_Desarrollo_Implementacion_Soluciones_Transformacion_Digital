@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 2
       h1 Ciclo de vida del <i>software</i>
-    p(data-aos="fade-down").mb-5 También conocido como (SDLC o Systems Development Life Cycle), es el proceso que se sigue para construir y hacer evolucionar un determinado <i>software</i>. El ciclo de vida permite iniciar una serie de fases mediante las cuales se procede a la validación y al desarrollo del <i>software</i> garantizando que se cumplan los requisitos para la aplicación y verificación de los procedimientos de desarrollo; para ello, se utilizan métodos del ciclo del <i>software</i>, que indican distintos pasos a seguir para el desarrollo de un producto.
+    p(data-aos="fade-down").mb-5 También conocido como (SDLC o #[em Systems Development Life Cycle]), es el proceso que se sigue para construir y hacer evolucionar un determinado <i>software</i>. El ciclo de vida permite iniciar una serie de fases mediante las cuales se procede a la validación y al desarrollo del <i>software</i> garantizando que se cumplan los requisitos para la aplicación y verificación de los procedimientos de desarrollo; para ello, se utilizan métodos del ciclo del <i>software</i>, que indican distintos pasos a seguir para el desarrollo de un producto.
 
     .row.justify-content-center.align-items-center(data-aos="fade-down")
       .col-lg-10
@@ -71,7 +71,7 @@
             h2.mb-0 una aproximación lógica a la adquisición, el suministro, el desarrollo, la explotación y el mantenimiento del <i>software</i>
             i.fas.fa-quote-right
         .cajon.color-secundario.p-4(data-aos="flip-down")
-          p(data-aos="fade-down") La ISO/IEC 12207 Information Technology / <i>software</i> Life Cycle Processes señala que es:
+          p(data-aos="fade-down") La ISO/IEC 12207 <i>Information Technology</i> / <i>Software Life Cycle Processes</i> señala que es:
 
           p(data-aos="fade-down").mb-0 Un marco de referencia que contiene los procesos, las actividades y las tareas involucradas en el desarrollo, la explotación y el mantenimiento de un producto de <i>software</i>, abarcando la vida del sistema desde la definición de los requisitos hasta la finalización de su uso (2008).
 
@@ -95,7 +95,7 @@
             img(src='@/assets/curso/temas/52.svg', alt='', style='margin-right: -100px').w-100
           .col-8.py-3.border-bot
             .col-sm.mb-5.mb-sm-0.mt-2.mx-5
-              .h5 Desventaja:
+              .h5 Desventaja
               p.mt-3 Pérdida de tiempo si se encuentran errores en una fase avanzada porque al devolverse se debe pasar nuevamente por todas las fases y reestructurar de acuerdo con las modificaciones.
 
     .row.mt-0(data-aos="fade-left")
@@ -105,7 +105,7 @@
             img(src='@/assets/curso/temas/53.svg', alt='', style='margin-right: -100px').w-100
           .col-8.py-3.border-bot
             .col-sm.mb-5.mb-sm-0.mt-2.mx-5
-              .h5 Paradigma orientado a objetos:
+              .h5 Paradigma orientado a objetos
               p.mt-3 Las etapas de desarrollo de <i>software</i> en el paradigma orientado a objetos, se conforma principalmente por la creación de clases, análisis de requisitos y el diseño. Con este paradigma se pretende que el código fuente sea reutilizable para otros proyectos.
 
     .row.mt-0(data-aos="fade-right")
@@ -120,7 +120,7 @@
 
               p Una de las principales diferencias con los paradigmas anteriores es que el cliente se ve involucrado en el proyecto durante el desarrollo de este, así, el cliente sugiere mejoras, propone ideas y se mantiene al tanto del desarrollo del producto, a diferencia del paradigma tradicional y el orientado objeto donde el cliente únicamente está al principio.
 
-    p(data-aos="fade-down").mb-5 A continuación, se revisan los modelos del paradigma tradicional más utilizados.
+    p(data-aos="fade-down").my-5 A continuación, se revisan los modelos del paradigma tradicional más utilizados.
 
     .row.justify-content-center.align-items-start.mb-5
       .col-lg-10
@@ -130,16 +130,19 @@
 
             p En su concepción básica, cada una de las actividades genera, como salidas, productos y modelos que son utilizados como entradas para el proceso subsiguiente; esto supone que una actividad debe terminarse (por lo menos, en algún grado) para empezar la siguiente.
 
-            img.img-a.img-t.mb-2(src='@/assets/curso/temas/55.svg', alt='')
-            figcaption.ps-4 Figura 1. Pasos en la algoritmia básica.
+            figure.mt-4
+              img(src='@/assets/curso/temas/55.svg', alt='')
+            figcaption.ps-4 Figura 1. Pasos en la algoritmia básica
 
 
           .row.justify-content-center.align-items-center(titulo="Modelo espiral")
             p Fue diseñado por Boehm en el año 1988 y se basa en una serie de ciclos repetitivos para ir ganando madurez en el producto final. El espiral se repite las veces que sea necesario hasta que el cliente o el usuario obtenga la satisfacción de sus necesidades.
 
-            p En este modelo hay 4 actividades que envuelven a las etapas: planificación, análisis de riesgo, implementación y evaluación. Una de sus principales ventajas es que los riesgos van disminuyendo conforme avanzan los ciclos o interacciones
-            img.img-a.img-t.mb-2(src='@/assets/curso/temas/56.svg', alt='')
-            figcaption.ps-4 Figura 2. Modelo espiral del ciclo de vida del desarrollo.
+            p En este modelo hay 4 actividades que envuelven a las etapas: planificación, análisis de riesgo, implementación y evaluación. Una de sus principales ventajas es que los riesgos van disminuyendo conforme avanzan los ciclos o interacciones.
+
+            figure.mt-4
+              img(src='@/assets/curso/temas/56.svg', alt='')
+            figcaption.ps-4 Figura 2. Modelo espiral del ciclo de vida del desarrollo
 
 
           .row.justify-content-center.align-items-center(titulo="Modelo interactivo o por prototipos")
@@ -209,8 +212,9 @@
                         .lista-ol--cuadro__vineta(style="width: 25px;")
                           span.vtext 6
                         span Producto de ingeniería.
-            img.img-a.img-t.mb-2(src='@/assets/curso/temas/57.svg', alt='')
-            figcaption.ps-4 Figura 3. Modelo de iterativo o por prototipos.
+            figure.mt-5
+              img(src='@/assets/curso/temas/57.svg', alt='')
+            figcaption.ps-4 Figura 3. Modelo de iterativo o por prototipos
 
 
     p(data-aos="fade-down").mb-5 Con respecto a los modelos del ciclo de vida del paradigma ágil, estos se caracterizan por estar basados en etapas del ciclo de vida del <i>software</i> tradicional, pero combinándolas con algunas técnicas, al respecto se pueden revisar los siguientes:
@@ -218,7 +222,7 @@
     .row.justify-content-center.align-items-start.mb-5
       .col-lg-10
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg6")
-          .row.justify-content-center.align-items-center(titulo="Modelo Scrum.")
+          .row.justify-content-center.align-items-center(titulo="Modelo Scrum")
             p Este modelo se basa en el desarrollo incremental, es decir conforme pasen las fases y la iteración mayor será el tamaño del proyecto que se está desarrollando.
 
             p Los procesos que utiliza son:
@@ -228,30 +232,30 @@
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 1
-                    span Product Backlog.
+                    span #[em Product Backlog.]
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 2
-                    span Sprint Backlog.
+                    span #[em Sprint Backlog.]
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 3
-                    span Sprint Planning Meeting.
+                    span #[em Sprint Planning Meeting].
               .col-lg-6
                 ol.lista-ol--cuadro
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 4
-                    span Daily Scrum.
+                    span #[em Daily Scrum.]
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 5
-                    span Sprint Review.
+                    span #[em Sprint Review.]
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 6
-                    span Sprint Retrospective
-            p El Scrum consiste en realizar un análisis de los requerimientos del sistema (Product Backlog), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un sprint, o sea, la fase de desarrollo. Posteriormente, los desarrolladores harán lo suyo, se realizarán algunas pruebas y se retroalimentará de acuerdo con lo conseguido al terminar la última fase.
+                    span #[em Sprint Retrospective.]
+            p El Scrum consiste en realizar un análisis de los requerimientos del sistema (#[em Product Backlog]), señalar cuáles serán los objetivos a corto o mediano plazo dentro de un #[em sprint], o sea, la fase de desarrollo. Posteriormente, los desarrolladores harán lo suyo, se realizarán algunas pruebas y se retroalimentará de acuerdo con lo conseguido al terminar la última fase.
             h4 Ventajas
 
             ul.lista-ul
@@ -268,9 +272,11 @@
                 i.fas.fa-check.colorv2
                 span <b>Gestión sistemática de riesgos:</b> los problemas son gestionados en el mismo momento de su aparición.
 
-            img.img-a.img-t.mb-2(src='@/assets/curso/temas/59.svg', alt='')
-            figcaption.ps-4 Figura 4. Modelo ágil Scrum.
-          .row.justify-content-center.align-items-center(titulo="Modelo Kanban.")
+            figure
+              img(src='@/assets/curso/temas/59b.svg', alt='')
+            figcaption.ps-4 Figura 4. Modelo ágil Scrum
+
+          .row.justify-content-center.align-items-center(titulo="Modelo Kanban")
             p David J. Anderson (reconocido como el líder de pensamiento de la adopción del Lean/Kanban para el trabajo de conocimiento), formuló el método Kanban como una aproximación al proceso evolutivo e incremental y al cambio de sistemas para las organizaciones de trabajo. El método está enfocado en llevar a cabo las tareas pendientes y los principios más importantes pueden ser divididos en cuatro principios básicos y seis prácticas.
 
             p El modelo Kanban es uno de los modelos más visuales de las metodologías ágiles; este consiste en la creación de un tablero con etiquetas, donde se seccionan cada una de las fases de su desarrollo, además se clasifican de acuerdo con los equipos de trabajo y se les asignan objetivos a corto, mediano y largo plazo.
@@ -283,66 +289,72 @@
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 1
-                    p.mb-0 Define el flujo de trabajo.
+                    span Define el flujo de trabajo.
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 2
-                    p.mb-0 Establecen las fases del ciclo de producción.
+                    span Establecen las fases del ciclo de producción.
 
               .col-lg-6
                 ol.lista-ol--cuadro
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 3
-                    p.mb-0 Stop Starting, start finishing.
+                    span #[em Stop starting], #[em start finishing].
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 4
-                    p.mb-0 Tiene un control.
-            img.img-a.img-t.mb-2(src='@/assets/curso/temas/60.svg', alt='')
+                    span Tiene un control.
+
+            figure.mt-4
+              img(src='@/assets/curso/temas/60b.svg', alt='')
             figcaption.ps-4 Figura 5. Modelo ágil Kanban
-          .row.justify-content-center.align-items-center(titulo="Modelo XP o programación extrema.")
-            p La programación extrema o eXtreme Programming (XP) es un enfoque de la ingeniería de <i>software</i> formulado por Kent Beck, autor del primer libro sobre este tema: Extreme Programming Explained: Embrace Change (1999). Esta metodología es adaptable según las necesidades y requerimientos a implementar, además, el cliente se encuentra involucrado en el proceso de desarrollo lo que hace que el producto pueda ser terminado en un menor tiempo.
+
+          .row.justify-content-center.align-items-center(titulo="Modelo XP o programación extrema")
+            p La programación extrema o eXtreme Programming (XP) es un enfoque de la ingeniería de <i>software</i> formulado por Kent Beck, autor del primer libro sobre este tema: #[em Extreme Programming Explained]: #[em Embrace Change] (1999). Esta metodología es adaptable según las necesidades y requerimientos a implementar, además, el cliente se encuentra involucrado en el proceso de desarrollo lo que hace que el producto pueda ser terminado en un menor tiempo.
             .row.mb-4
               .col-lg-6
                 ol.lista-ol--cuadro
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 1
-                    p.mb-0 Tipo de desarrollo iterativo e incremental.
+                    span Tipo de desarrollo iterativo e incremental.
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 2
-                    p.mb-0 Pruebas unitarias.
+                    span Pruebas unitarias.
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 3
-                    p.mb-0 Trabajo en Equipo.
+                    span Trabajo en equipo.
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 4
-                    p.mb-0 Trabajo junto al cliente.
+                    span Trabajo junto al cliente.
 
               .col-lg-6
                 ol.lista-ol--cuadro
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 5
-                    p.mb-0 Corrección de errores.
+                    span Corrección de errores.
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 6
-                    p.mb-0 Reestructuración del código.
+                    span Reestructuración del código.
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 7
-                    p.mb-0 El código es de todos.
+                    span El código es de todos.
                   li
                     .lista-ol--cuadro__vineta.wtg-1
                       span.vtext 8
-                    p.mb-0 El código simple es la clave.
+                    span El código simple es la clave.
+
             p Características principales de la programación extrema:
-            img.img-a.img-t.mb-2(src='@/assets/curso/temas/61.svg', alt='')
+
+            figure.mt-4
+              img(src='@/assets/curso/temas/61.svg', alt='')
             figcaption.ps-4 Figura 6. Modelo XP
 </template>
 

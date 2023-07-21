@@ -7,7 +7,7 @@
         span 1
       h1 Aplicaciones web
 
-    p(data-aos="fade-down").mb-5 En la historia de la computación la web sin duda fue el acontecimiento que marcó el hito más importante para la popularidad y el aumento del uso de la internet, que ya venía naciendo entre los años 60 y 70 del siglo pasado, pero no había tenido relevancia más allá de los proyectos científicos, las grandes corporaciones, los académicos y los militares; sin embargo, no fue hasta década y media después que con la creación de la World Wide web publicada en 1990 por el inglés Tim Berners-Lee permitió su popularidad y su funcionalidad, pues aumentó el uso a través de los navegadores (<i>browser</i>).
+    p(data-aos="fade-down").mb-5 En la historia de la computación la web sin duda fue el acontecimiento que marcó el hito más importante para la popularidad y el aumento del uso de la internet, que ya venía naciendo entre los años 60 y 70 del siglo pasado, pero no había tenido relevancia más allá de los proyectos científicos, las grandes corporaciones, los académicos y los militares; sin embargo, no fue hasta década y media después que con la creación de la #[em World Wide Web] publicada en 1990 por el inglés Tim Berners-Lee permitió su popularidad y su funcionalidad, pues aumentó el uso a través de los navegadores (<i>browser</i>).
 
     .row.align-items-center.justify-content-center
       .col-lg-10
@@ -40,19 +40,19 @@
             img.img-a.img-t(src='@/assets/curso/temas/4.png', alt='')
           .col-lg-6.col-md-12.my-3
             h4.mb-4 WWW
-            p Son las iniciales de Word Wide web, por lo general se colocan estas tres letras para indicar al navegador que se trata de un aplicativo web, que se despliega mediante el protocolo HTTP.
+            p Son las iniciales de #[em Word Wide Web], por lo general se colocan estas tres letras para indicar al navegador que se trata de un aplicativo web, que se despliega mediante el protocolo HTTP.
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/5.png', alt='')
           .col-lg-6.col-md-12.my-3
             h4.mb-4 HTTP
-            p Son las siglas de Hypertext Transfer Protocol que significa protocolo de comunicación para la transferencia de hipertexto, usado en las aplicaciones web.
+            p Son las siglas de #[em Hypertext Transfer Protocol] que significa protocolo de comunicación para la transferencia de hipertexto, usado en las aplicaciones web.
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/6.png', alt='')
           .col-lg-6.col-md-12.my-3
             h4.mb-4 IP
-            p Son las siglas de internet Protocol que significa Protocolo de internet, es un protocolo de comunicación, de la capa de red, que se responsabiliza de las direcciones IP y determina las rutas de salida y llegada de los paquetes de datos que van y vienen. Cada página web cuenta con una dirección IP única, desde la línea de comando puede conocerla mediante el comando <i>ping</i> a la página web.
+            p Son las siglas de #[em Internet Protocol] que significa Protocolo de internet, es un protocolo de comunicación, de la capa de red, que se responsabiliza de las direcciones IP y determina las rutas de salida y llegada de los paquetes de datos que van y vienen. Cada página web cuenta con una dirección IP única, desde la línea de comando puede conocerla mediante el comando <i>ping</i> a la página web.
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/7.png', alt='')
@@ -64,26 +64,26 @@
             img.img-a.img-t(src='@/assets/curso/temas/8.png', alt='')
           .col-lg-6.col-md-12.my-3
             h4.mb-4 URL
-            p Son las siglas de Uniform Resource Locator que significa Localizador de recursos uniforme, se trata de la dirección única que se asigna a cada recurso de una web. Esta URL la usan los navegadores y los usuarios para llegar a una web o a un lugar específico de esta.
+            p Son las siglas de #[em Uniform Resource Locator] que significa Localizador de recursos uniforme, se trata de la dirección única que se asigna a cada recurso de una web. Esta URL la usan los navegadores y los usuarios para llegar a una web o a un lugar específico de esta.
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/9.png', alt='')
           .col-lg-6.col-md-12.my-3
             h4.mb-4 HTML
-            p Son las siglas de HyperText Markup Language que significa lenguaje de marcado de hipertexto, es el lenguaje ‘nativo’ que se utiliza en los sitios web y lo traduce el explorador o navegador para mostrar los contenidos. Actualmente, la web no solo usa HTML, se complementa con estilos (CSS), JavaScript, XML y otros recursos de programación.
+            p Son las siglas de #[em HyperText Markup Language] que significa lenguaje de marcado de hipertexto, es el lenguaje ‘nativo’ que se utiliza en los sitios web y lo traduce el explorador o navegador para mostrar los contenidos. Actualmente, la web no solo usa HTML, se complementa con estilos (CSS), JavaScript, XML y otros recursos de programación.
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/10.png', alt='')
           .col-lg-6.col-md-12.my-3
             h4.mb-4 XML
-            p Son las siglas de Extensible Markup Language que significa lenguaje de marcado extensible, se emplea para enviar o recibir información de otros sistemas y para integrar las plataformas de información. Es un lenguaje que comparte datos de un sistema a otro.
+            p Son las siglas de #[em Extensible Markup Language] que significa lenguaje de marcado extensible, se emplea para enviar o recibir información de otros sistemas y para integrar las plataformas de información. Es un lenguaje que comparte datos de un sistema a otro.
         .row.align-items-center.justify-content-center
           .col-lg-6.col-md-12.my-3
             img.img-a.img-t(src='@/assets/curso/temas/11.png', alt='')
           .col-lg-6.col-md-12.my-3
             h4.mb-4 Navegador web o <i>browser</i>
-            p Es la aplicación tipo cliente que permite el acceso y la carga de los sitios web, interpreta la información enviada por servidores y permite la visualización al usuario final. Actualmente los navegadores más populares en su orden son: Chrome, Safari, Edge, Firefox, Android.
-                                                                              Separador
+            p Es la aplicación tipo cliente que permite el acceso y la carga de los sitios web, interpreta la información enviada por servidores y permite la visualización al usuario final. Actualmente los navegadores más populares en su orden son: Google Chrome, Apple Safari, Microsoft Edge, Mozilla Firefox y Opera entre otros.
+    Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.2  Plataformas
     p(data-aos="fade-down").mb-5 Son espacios en la internet que ejecutan diversas aplicaciones, servicios o programas, estos permiten la virtualización de servicios especializados, ahorrando tiempo de desarrollo y optimizando los recursos, pues las organizaciones solo deben concentrarse en su acción misional sin preocupaciones por las herramientas digitales o contratar personas especializadas, e incluso contar con mayor flexibilidad al momento de cambiar de proveedor si no satisface los requerimientos o las necesidades.
@@ -103,7 +103,7 @@
         .row.align-items-center.justify-content-center
           .col-lg-10
             img.img-a.img-t.mb-4(src='@/assets/curso/temas/17.png', alt='')
-            p Se trata de plataformas LMS (Learning Management System - sistema de gestión del aprendizaje) y otras, que se concentran en gestionar contenido educativo y usuarios con sus roles correspondientes, en estas se crean cursos, materiales de formación, se gestionan exámenes, certificados y todo lo relacionado tanto con lo académico como con lo administrativo.
+            p Se trata de plataformas LMS (#[em Learning Management System] - Sistema de gestión del aprendizaje) y otras, que se concentran en gestionar contenido educativo y usuarios con sus roles correspondientes, en estas se crean cursos, materiales de formación, se gestionan exámenes, certificados y todo lo relacionado tanto con lo académico como con lo administrativo.
       .py-4.py-md-5(titulo="Comercio electrónico (<i>e-commerce</i>)" :icono="require('@/assets/curso/temas/14.png')")
         .row.align-items-center.justify-content-center
           .col-lg-10
@@ -223,9 +223,9 @@
       .col-lg-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/30.png', alt='')
 
-    p(data-aos="fade-down") En este sentido, para el desarrollo web existen diversos profesionales especializados, aquellos que se concentran en crear para el <i>backend</i> (del lado del servidor) y quienes se especializan en <i>frontend</i> (del lado del cliente). Algunos profesionales tienen ambas habilidades técnicas y se denominan “<i>fullstacfk</i>”.
+    p(data-aos="fade-down") En este sentido, para el desarrollo web existen diversos profesionales especializados, aquellos que se concentran en crear para el <i>Backend</i> (del lado del servidor) y quienes se especializan en <i>Frontend</i> (del lado del cliente). Algunos profesionales tienen ambas habilidades técnicas y se denominan <i>Full Stack</i>.
 
-    p(data-aos="fade-down").mb-5 En el siguiente recurso interactivo se ilustran los elementos que conforman el <i>backend</i> y el <i>frontend</i> para mejor comprensión:
+    p(data-aos="fade-down").mb-5 En el siguiente recurso interactivo se ilustran los elementos que conforman el <i>Backend</i> y el <i>Frontend</i> para mejor comprensión:
 
     ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
@@ -237,8 +237,8 @@
           .col-auto
             img.img-a.img-t(src='@/assets/curso/temas/32.svg', alt='')
           .col-10
-            h4.mb-4 Programación en el <i>front</i>
-            p.mb-0 Si bien esta parte podría parecer ambigua y quizás confusa para diferenciar entre el back y el front, es necesario mencionar que existen algunos lenguajes del lado del cliente, es decir, lenguajes que se desarrollan principalmente desde los navegadores con lógica de cliente, por lo general, hacen peticiones y conexiones con elementos del back. Entre estos lenguajes se tienen Html, Java Script, SCC.
+            h4.mb-4 Programación en el <i>Front</i>
+            p.mb-0 Si bien esta parte podría parecer ambigua y quizás confusa para diferenciar entre el #[em Back] y el #[em Front], es necesario mencionar que existen algunos lenguajes del lado del cliente, es decir, lenguajes que se desarrollan principalmente desde los navegadores con lógica de cliente, por lo general, hacen peticiones y conexiones con elementos del #[em Back]. Entre estos lenguajes se tienen #[em HTML], #[em JavaScript] y #[em CSS].
 
       div(x="16%" y="45%" tooltip="ver más" numero="2")
         .row.justify-content-center.align-items-start
@@ -253,7 +253,7 @@
             img.img-a.img-t(src='@/assets/curso/temas/34.svg', alt='')
           .col-10
             h4.mb-4 Validaciones
-            p.mb-0 En este aspecto el <i>frontend</i> se responsabiliza de cargar validaciones al momento de ingresar a zonas privadas que requieren autenticación de usuarios. Envía contraseñas y usuarios que viajan encriptadas y aceptan o no las validaciones.
+            p.mb-0 En este aspecto el <i>Frontend</i> se responsabiliza de cargar validaciones al momento de ingresar a zonas privadas que requieren autenticación de usuarios. Envía contraseñas y usuarios que viajan encriptadas y aceptan o no las validaciones.
       div(x="16%" y="75%" tooltip="ver más" numero="4")
         .row.justify-content-center.align-items-start
           .col-auto
@@ -274,15 +274,15 @@
           .col-auto
             img.img-a.img-t(src='@/assets/curso/temas/37.svg', alt='')
           .col-10
-            h4.mb-4 Programación en <i>backend</i>
-            p.mb-0 La programación del lado del <i>backend</i> se traduce en el uso de lenguajes que se ejecutan en los servidores; lo que quiere decir que todo el trabajo del procesamiento y cálculos de datos e información se ejecutan en el servidor en el cual está alojado el servicio.
+            h4.mb-4 Programación en <i>Backend</i>
+            p.mb-0 La programación del lado del <i>Backend</i> se traduce en el uso de lenguajes que se ejecutan en los servidores; lo que quiere decir que todo el trabajo del procesamiento y cálculos de datos e información se ejecutan en el servidor en el cual está alojado el servicio.
       div(x="84%" y="60%" tooltip="ver más" numero="7")
         .row.justify-content-center.align-items-start
           .col-auto
             img.img-a.img-t(src='@/assets/curso/temas/38.svg', alt='')
           .col-10
             h4.mb-4 Bases de datos
-            p.mb-0 Desde el cliente a través de las interfaces del <i>frontend</i> se realiza una petición, por ejemplo, una búsqueda; esta petición se realiza al servicio de base de datos (del <i>backend</i>), el proceso de búsqueda y carga de procesamiento se ejecuta en el servidor y este envía al cliente los resultados o mensajes de error en caso de presentarse.
+            p.mb-0 Desde el cliente a través de las interfaces del <i>Frontend</i> se realiza una petición, por ejemplo, una búsqueda; esta petición se realiza al servicio de base de datos (del <i>Backend</i>), el proceso de búsqueda y carga de procesamiento se ejecuta en el servidor y este envía al cliente los resultados o mensajes de error en caso de presentarse.
 
     Separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
