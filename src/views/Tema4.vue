@@ -133,7 +133,7 @@
         p(data-aos="fade-down").mb-5.text-center En la siguiente tabla se presentan algunos ejemplos sobre requisitos funcionales y no funcionales.
         .tabla-a(data-aos="fade-left")
           table
-            caption Tabla 2. Requisitos.
+            caption Tabla 2. Requisitos
             thead
               tr
                 th Funcionales
