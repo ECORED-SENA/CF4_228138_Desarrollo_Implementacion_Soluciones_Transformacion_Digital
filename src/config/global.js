@@ -251,22 +251,6 @@ export default {
       tipo: 'Libro',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=3313',
     },
-    {
-      tema: 'Informe de requisitos',
-      referencia:
-        'Heras del Dedo, R. y Álvarez, A. (2017). <i>Métodos ágiles: Scrum, Kanban, Lean</i>. Difusora Larousse - Anaya Multimedia.',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/122933',
-    },
-    {
-      tema: 'Buenas prácticas de documentación',
-      referencia:
-        'Paba, C., Paba, Z. & Vega, D. (2021). <i>Normas para la presentación de informes de investigación y artículos científicos. Incluye citas y referencias bibliográficas según las Normas APA de la 7.ª edición</i>. Editorial Unimagdalena.',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/210923',
-    },
   ],
   glosario: [
     {
@@ -323,8 +307,6 @@ export default {
     {
       referencia:
         'Heras del Dedo, R. y Álvarez, A. (2017). <i>Métodos ágiles: Scrum, Kanban, Lean</i>. Difusora Larousse - Anaya Multimedia.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/122933',
     },
     {
       referencia:
