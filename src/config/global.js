@@ -25,43 +25,37 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Aplicaciones web',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Componentes',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Plataformas',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Bases de datos',
             hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: '<i>Backend</i> de autenticación',
             hash: 't_1_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'Redundancia',
             hash: 't_1_5',
@@ -70,19 +64,16 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Ciclo de vida del <i>software</i>',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Fases',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo:
               'Paradigmas de los modelos de ciclo de vida del <i>software</i>',
@@ -92,26 +83,22 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Fase de definición de requisitos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Requisitos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo: 'Importancia',
             hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.2',
             titulo: 'Clasificación',
             hash: 't_4_2',
@@ -133,31 +120,26 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '6.1',
             titulo: 'Elementos del documento',
             hash: 't_6_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.2',
             titulo: 'IREB (International Requirements Engineering Board)',
             hash: 't_6_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.3',
             titulo: 'Estándar IEEE',
             hash: 't_6_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.4',
             titulo: 'SCRUM (historias de usuario)',
             hash: 't_6_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.5',
             titulo: 'Criterios de aceptación',
             hash: 't_6_5',
@@ -166,19 +148,16 @@ export default {
       },
       {
         nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
         numero: '7',
         titulo: 'Buenas prácticas de documentación',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '7.1',
             titulo: 'Normas APA',
             hash: 't_7_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '7.2',
             titulo: '7.2	Buenas prácticas de redacción de requisitos',
             hash: 't_7_2',
@@ -217,7 +196,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/pdf.pdf',
+        download: 'downloads/228138_CF04_DU.pdf',
       },
       {
         icono: 'fas fa-download',

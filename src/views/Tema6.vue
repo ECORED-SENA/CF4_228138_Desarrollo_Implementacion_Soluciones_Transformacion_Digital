@@ -189,9 +189,9 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.d-none.d-lg-block
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/94.svg', alt='')
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/94.svg', alt=' Comparación entre la metodología tradicional y la ágil. Esta última se propone como pirámide invertida. En la base superior se ubican los recursos y fechas y en la punta inferior, los requisitos.')
       .col-lg-12.d-block.d-lg-none
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/95.svg', alt='')
+        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/95.svg', alt=' Comparación entre la metodología tradicional y la ágil. Esta última se propone como pirámide invertida. En la base superior se ubican los recursos y fechas y en la punta inferior, los requisitos.')
 
     .cajon-b.color-acento-contenido.mb-4.py-2
       .row.align-items-center.justify-content-center
@@ -266,7 +266,7 @@
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/102.png', alt='')
+          img(src='@/assets/curso/temas/102.png', alt='Ficha en la que se establecen datos que componen una historia de usuario: ID del usuario, su descripción, procesos de aceptación y la respectiva valoración.')
 
       .tarjeta.color-secundario.p-3(x="49%" y="9%" numero="1")
         .h5.mb-0.text-center ID

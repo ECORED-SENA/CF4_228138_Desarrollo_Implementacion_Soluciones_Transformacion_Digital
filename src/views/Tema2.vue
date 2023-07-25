@@ -131,7 +131,7 @@
             p En su concepción básica, cada una de las actividades genera, como salidas, productos y modelos que son utilizados como entradas para el proceso subsiguiente; esto supone que una actividad debe terminarse (por lo menos, en algún grado) para empezar la siguiente.
 
             figure.mt-4
-              img(src='@/assets/curso/temas/55.svg', alt='')
+              img(src='@/assets/curso/temas/55.svg', alt='Esquema de proceso cíclico. Los pasos son: requerimiento, diseño, codificación, pruebas y operación.')
             figcaption.ps-4 Figura 1. Pasos en la algoritmia básica
 
 
@@ -141,7 +141,7 @@
             p En este modelo hay 4 actividades que envuelven a las etapas: planificación, análisis de riesgo, implementación y evaluación. Una de sus principales ventajas es que los riesgos van disminuyendo conforme avanzan los ciclos o interacciones.
 
             figure.mt-4
-              img(src='@/assets/curso/temas/56.svg', alt='')
+              img(src='@/assets/curso/temas/56.svg', alt='La espiral parte del centro de un plano cartesiano y va girando conforme a las manecillas del reloj de manera creciente pasando por cada fase. Parte del recuadro de Evaluación alternativa, pasando por el desarrollo del producto, luego, continúa en el lanzamiento al mercado, sigue por una fase revisión, se identifican objetivos, después el coste acumulativo e inicia de nuevo en la evaluación alternativa y continúa su desarrollo.En cada fase a su vez, existen microactividades. Por ejemplo, cuando se llega al Desarrollo del producto, se deben ejecutar: procesos de diseño,código, integración, pruebas e implementación.')
             figcaption.ps-4 Figura 2. Modelo espiral del ciclo de vida del desarrollo
 
 
@@ -213,7 +213,7 @@
                           span.vtext 6
                         span Producto de ingeniería.
             figure.mt-5
-              img(src='@/assets/curso/temas/57.svg', alt='')
+              img(src='@/assets/curso/temas/57.svg', alt='Gráfico, tipo torta, en el que se expone el ciclo de vida de un prototipado, iniciando por la recolección de los requisitos y finalizando en el producto de ingeniería.')
             figcaption.ps-4 Figura 3. Modelo de iterativo o por prototipos
 
 
@@ -273,7 +273,7 @@
                 span <b>Gestión sistemática de riesgos:</b> los problemas son gestionados en el mismo momento de su aparición.
 
             figure
-              img(src='@/assets/curso/temas/59b.svg', alt='')
+              img(src='@/assets/curso/temas/59b.svg', alt='Los pasos de un modelo Scrum inicia con el Product Backlog, allí se priorizan las tareas. Luego, pasa al Sprint Planning Meeting en donde el equipo indica las tareas que puede cumplirse en el sprint. Después, sigue el Sprint Backlog en el que se organizan las tareas y se establecen las fechas de finalización. El proceso de Sprint puede durar de 2 a 4 semanas. En este tiempo, se involucran la etapa Daily Scrum. una vez finalizado el trabajo se da paso al Sprint Review y al Sprint Retrospective.')
             figcaption.ps-4 Figura 4. Modelo ágil Scrum
 
           .row.justify-content-center.align-items-center(titulo="Modelo Kanban")
@@ -307,7 +307,7 @@
                     span Tiene un control.
 
             figure.mt-4
-              img(src='@/assets/curso/temas/60b.svg', alt='')
+              img(src='@/assets/curso/temas/60b.svg', alt='Tablero dividido en tres columnas: por hacer, haciendo y hecho. En cada una de estas etapas, se colocan las respectivas actividades a realizar.')
             figcaption.ps-4 Figura 5. Modelo ágil Kanban
 
           .row.justify-content-center.align-items-center(titulo="Modelo XP o programación extrema")
@@ -354,7 +354,7 @@
             p Características principales de la programación extrema:
 
             figure.mt-4
-              img(src='@/assets/curso/temas/61.svg', alt='')
+              img(src='@/assets/curso/temas/61.svg', alt='La programación extrema consiste en una metodología de cuadro grandes pasos que a su vez contiene fases a tener en cuenta. Estos son: a. Planificación. Fase: historia del usuario,b. Diseño. Fases: diseño simple y prototipos, c. Codificación. Fases: programación en parejas y pruebas unitarias integración continua,d. Pruebas. Fases: Lanzamiento, pruebas de aceptación')
             figcaption.ps-4 Figura 6. Modelo XP
 </template>
 
