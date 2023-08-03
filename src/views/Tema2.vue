@@ -16,7 +16,7 @@
               h2.mb-0 Si bien existen diferentes ciclos de desarrollo de <i>software</i>, la normativa ISO/IEC/IEEE 12207:2017 establece que:
             .col-lg-8
               .bloque-texto-a__texto.p-4
-                p [Es] un marco común para los procesos del ciclo de vida de los programas informáticos, con una terminología bien definida, a la que pueda remitirse la industria del <i>software</i>. <b>Contiene procesos, actividades y tareas aplicables durante la adquisición, el suministro, el desarrollo, el funcionamiento, el mantenimiento o la eliminación de sistemas, productos y servicios informáticos</b>. Estos procesos del ciclo de vida se llevan a cabo mediante la participación de los interesados, con el objetivo final de lograr la satisfacción del cliente (s.p.).
+                p Es un marco común para los procesos del ciclo de vida de los programas informáticos, con una terminología bien definida, a la que pueda remitirse la industria del <i>software</i>. <b>Contiene procesos, actividades y tareas aplicables durante la adquisición, el suministro, el desarrollo, el funcionamiento, el mantenimiento o la eliminación de sistemas, productos y servicios informáticos</b>. Estos procesos del ciclo de vida se llevan a cabo mediante la participación de los interesados, con el objetivo final de lograr la satisfacción del cliente (s.p.).
 
     p(data-aos="fade-down").mb-5.text-center A continuación, se indican cuáles son los elementos que integran un ciclo de vida:
 
@@ -75,7 +75,7 @@
 
           p(data-aos="fade-down").mb-0 Un marco de referencia que contiene los procesos, las actividades y las tareas involucradas en el desarrollo, la explotación y el mantenimiento de un producto de <i>software</i>, abarcando la vida del sistema desde la definición de los requisitos hasta la finalización de su uso (2008).
 
-    p(data-aos="fade-down").mb-5 Existen modelos preestablecidos con los cuales se pude elaborar un proyecto; a continuación, se mencionan los diferentes paradigmas de modelos de ciclo de vida para desarrollar <i>software</i>.
+    p(data-aos="fade-down").mb-5 Existen modelos preestablecidos con los cuales se puede elaborar un proyecto; a continuación, se mencionan los diferentes paradigmas de modelos de ciclo de vida para desarrollar <i>software</i>.
     .row.mt-5(data-aos="fade-left")
       .col-12
         .row
@@ -147,23 +147,9 @@
 
           .row.justify-content-center.align-items-center(titulo="Modelo interactivo o por prototipos")
             p Este modelo consiste en un procedimiento que permite al equipo de desarrollo diseñar y analizar una aplicación que represente el sistema que será implementado (McCracken y Jackson, 1982).
-            .h6.my-3 Objetivos
-            p Son un medio eficaz para aclarar los requisitos de los usuarios e identificar las características de un sistema que deben cambiarse o añadirse.  Mediante el prototipo se puede verificar la viabilidad del diseño de un sistema.
-            .row
-              .col-lg-5.border-y.offset-1.mt-3
-                .col-sm.my-2
-                  ol.lista-ol--cuadro
-                    li
-                      .lista-ol--cuadro__vineta.colorv1(style="width: 60px;")
-                        span A
-                      span Son un medio eficaz para aclarar los requisitos de los usuarios e identificar las características de un sistema que deben cambiarse o añadirse.
-              .col-lg-5.border-y.offset-1.mt-3
-                .col-sm.my-2
-                  ol.lista-ol--cuadro
-                    li
-                      .lista-ol--cuadro__vineta.colorv1(style="width: 40px;")
-                        span B
-                      span Mediante el prototipo se puede verificar la viabilidad del diseño de un sistema.
+            .h5.my-3 Objetivos
+            p Son un medio eficaz para aclarar los requisitos de los usuarios e identificar las características de un sistema que deben cambiarse o añadirse. Mediante el prototipo se puede verificar la viabilidad del diseño de un sistema. Son un medio eficaz para aclarar los requisitos de los usuarios e identificar las características de un sistema que deben cambiarse o añadirse.
+
             .row.mt-4
               .col-4
                 img.img-a.img-t.mb-2(src='@/assets/curso/temas/58.png', alt='')

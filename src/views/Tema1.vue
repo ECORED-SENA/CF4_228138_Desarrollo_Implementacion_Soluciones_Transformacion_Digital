@@ -31,7 +31,7 @@
         .col-10.my-3
           p(data-aos="fade-down") Existen diversos elementos que son importantes de entender, si bien no son nuevos, son la fundamentación tecnológica que soporta el funcionamiento de los aplicativos basados en la web y su funcionamiento en la internet.
 
-          p(data-aos="fade-down") A continuación se mencionan los aspectos más relevantes que todo profesional de la digitalización y la transformación tecnológica debe conocer y estudiar, donde cada elemento implica una arquitectura y una capa en el funcionamiento de la internet a través de la web .
+          p(data-aos="fade-down") A continuación se mencionan los aspectos más relevantes que todo profesional de la digitalización y la transformación tecnológica debe conocer y estudiar, donde cada elemento implica una arquitectura y una capa en el funcionamiento de la internet a través de la web.
 
     .bg1.p-4.mb-5(data-aos="fade-left")
       SlyderA(tipo="b")
@@ -91,7 +91,7 @@
     .row.align-items-center.justify-content-center.mb-5
       .col-auto
         .bg2.p-2.text-center.px-5
-          p(data-aos="fade-down").mb-0 Las plataformas web podrían clasificarse según el uso requerido de la siguiente manera :
+          p(data-aos="fade-down").mb-0 Las plataformas web podrían clasificarse según el uso requerido de la siguiente manera:
 
     TabsB.color-acento-contenido.mb-5(data-aos="fade-right")
       .py-4.py-md-5(titulo="Plataformas sociales" :icono="require('@/assets/curso/temas/12.png')")
@@ -140,7 +140,7 @@
             p.text-regular Son colecciones digitales y la manera más adecuada para almacenar datos en un sistema de información, debido a sus diversas características de seguridad, capacidad de recuperación ante fallos, gestión centralizada, estandarización del lenguaje de consulta y funcionalidades avanzadas; las bases de datos son un elemento fundamental en el entorno informático, actualmente tienen una aplicación en todos los ámbitos y los campos.
             i.fas.fa-quote-right
           .bloque-texto-d__autor
-            .h5.mb-0 - Pulido, Escobar & Núñez, 2019.
+            .h5.mb-0 - Pulido, Escobar & Núñez (2019).
 
         p(data-aos="fade-down").mt-4 Los principios y las fundamentaciones de las bases de datos se usan desde hace décadas, estas han venido evolucionando y permitiendo el avance de lo que es la informática actual.
       .col-lg-3.my-3
@@ -180,7 +180,7 @@
               .col-8
                 img.img-a.img-t.mb-3.mt-4(src="@/assets/curso/temas/25.png", alt="alt").img100.m-auto
             h4.mb-3 MySQL
-            p.mb-0 Es un tipo de base de datos relacional, multihilo y  multiusuario, es la base de datos más usada a nivel mundial, tiene diversas licencias (tanto comercial como no paga), las más popular es la de código abierto y uso libre; no obstante existen múltiples marcas que ofrecen MySQL promoviendo la infraestructura en la nube como Google, AWS, Oracle, entre otras.
+            p.mb-0 Es un tipo de base de datos relacional, multihilo y  multiusuario, es la base de datos más usada a nivel mundial, tiene diversas licencias (tanto comercial como no paga), la más popular es la de código abierto y uso libre; no obstante existen múltiples marcas que ofrecen MySQL promoviendo la infraestructura en la nube como Google, AWS, Oracle, entre otras.
           .tarjeta.tarjeta--slyder.bg5.p-4.h-100
             .row.justify-content-center.mb-3
               .col-8

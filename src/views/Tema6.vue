@@ -187,6 +187,8 @@
 
           p(data-aos="fade-down").mb-0 La metodología ágil como SCRUM propone un cambio de paradigma, que puede identificar a continuación:
 
+    .titulo-sexto.color-acento-contenido.mb-4
+      p.mb-0 #[b Figura 7]. Ejemplo del cambio de paradigma
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.d-none.d-lg-block
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/94.svg', alt=' Comparación entre la metodología tradicional y la ágil. Esta última se propone como pirámide invertida. En la base superior se ubican los recursos y fechas y en la punta inferior, los requisitos.')
@@ -263,6 +265,8 @@
 
     p(data-aos="fade-down").mb-5 Si bien el formato o plantillas son muy diversas, esto depende de los líderes o de la compañía, deben tener unos elementos mínimos, a continuación se presenta un ejemplo de una tarjeta o documento de historia de usuario y sus componentes:
 
+    .titulo-sexto.color-acento-contenido.mb-4
+      p.mb-0 #[b Figura 8]. Ejemplo de una historia de usuario
     ImagenInfografica.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
