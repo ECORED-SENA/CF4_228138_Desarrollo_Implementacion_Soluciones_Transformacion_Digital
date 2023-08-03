@@ -43,7 +43,7 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.1 Fases
 
-    p(data-aos="fade-down").mb-5 Las fases del modelo de ciclo del <i>software</i> son: planificación, análisis, diseño, implementación, pruebas y mantenimiento, las cuales se describen en la siguiente figura.
+    p(data-aos="fade-down").mb-5 Las fases del modelo de ciclo del <i>software</i> son: planificación, análisis, diseño, implementación, pruebas y mantenimiento, las cuales se describen a continuación:
     .bg8.p-5
       SlyderB.mb-5(:datos="datosSlyder").mt-5
 
